@@ -2,10 +2,12 @@
 
   --color-main-1: #333;
   --color-main-2: #666;
+  --color-main-3: #888;
 
   section {
     background: var(--color-main-1);
     border: 5px solid var(--color-main-2);
+    border-radius: 15px;
   }
 
   header {
