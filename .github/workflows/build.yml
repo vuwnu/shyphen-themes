@@ -20,7 +20,7 @@ jobs:
         run: mkdir -vp /tmp/repo-name/assets/css
 
       - name: Compile CSS from SCSS files
-        uses: gha-utilities/sass-build@v0.2.6
+        uses: gha-utilities/sass-build@v0.2.5
         with:
           source: _scss/main.scss
           destination: /tmp/repo-name/assets/css/main.css
