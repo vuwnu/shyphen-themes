@@ -17,13 +17,13 @@ jobs:
             submodules: true
 
       - name: Make destination directory for compiled CSS
-        run: mkdir -vp /themes
+        run: mkdir -vp /tmp/repo-name/assets/css
 
       - name: Compile CSS from SCSS files
         uses: gha-utilities/sass-build@v0.2.5
         with:
-          source: slick/slick.scss
-          destination: /themes/slick/slick.css
+          source: _scss/main.scss
+          destination: /tmp/repo-name/assets/css/main.css
 
       - name: Checkout destination Git branch
         uses: actions/checkout@v2
