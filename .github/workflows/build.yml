@@ -22,7 +22,7 @@ jobs:
       - name: Compile CSS from SCSS files
         uses: gha-utilities/sass-build@v0.2.5
         with:
-          source: _scss/main.scss
+          source: slick/slick.scss
           destination: /tmp/repo-name/assets/css/main.css
 
       - name: Checkout destination Git branch
