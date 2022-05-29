@@ -1,2 +1,2 @@
-# zoon-themes
-A collection of themes made for use with the [zoon] system
+### Shyphen Themes
+A collection of themes made for use with the Shyphen
